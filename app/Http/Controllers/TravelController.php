@@ -3,17 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Trip;
 class TravelController extends Controller
 {
     public function travels(){
 
     
-       $travels = Travel::all();
+       $travels = Trip::all();
 
 
         $travel = compact('travels');
-        dd($travel);
+         dd($travel);
 
        return view('travels', $travel);
 }
