@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  margin: auto;
-  background-color: dimgray;
-}
-
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10958,12 +10953,19 @@ a.text-dark:focus {
 .container-md,
 .container-lg,
 .container-xl {
-  position: relative;
+  height: 100px;
+  font-size: 40px;
   background-color: dodgerblue;
 }
 
+.title {
+  vertical-align: middle;
+  text-align: center;
+}
+
 h1 {
-  font-size: 200px;
+  font-size: 100px;
+  line-height: 500px;
 }
 
 ul li a {

@@ -3,8 +3,10 @@
 
 @section ('main')
 
-    <div class="container">
+    <div class="title">
+        <div class="text">
         <h1 class="text-uppercase">Travel Agency</h1>
+    </div>
     </div>
 
 @endsection
