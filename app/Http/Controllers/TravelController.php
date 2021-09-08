@@ -9,12 +9,12 @@ class TravelController extends Controller
     public function travels(){
 
     
-       $travels = Trip::all();
+       $travel = Trip::all();
 
 
-        $travel = compact('travels');
-         dd($travel);
+        $travels = compact('travel');
+        //  dd($travel);
 
-       return view('travels', $travel);
+       return view('travels', $travels);
 }
 }

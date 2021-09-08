@@ -1,5 +1,5 @@
 <header>
-    <div class="container">
+ <div class="container-fluid">
         <ul class="nav justify-content-center">
             <li class="nav-item">
               <a class="nav-link active" href="{{route('homepage')}}">Home</a>
@@ -14,6 +14,7 @@
               <a class="nav-link disabled" href="#">Disabled</a>
             </li>
           </ul>
-    </div>
+  </div>
+
    
 </header>

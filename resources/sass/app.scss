@@ -2,7 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
-@import 'variables';
+@import 'partials/variables';
+@import 'partials/commons';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+.container-fluid{
+    position:relative;
+    background-color: dodgerblue;
+    
+}
+h1{
+    font-size: 200px;
+}
+ul li a{
+    color: whitesmoke;
+}

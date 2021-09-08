@@ -14,7 +14,7 @@
     
     {{-----------Structure body---------------}}
     
-    {{-- Including HEADER --}}
+    {{-- Including HEADER --}}  
     @include('partials.header')
 
     {{-- Including  MAIN --}}
